@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px; /* Increased width */
+    margin: 50px auto;
+    padding: 30px; /* Increased padding */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 36px; /* Increased font size for heading */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Increased margin for better spacing */
+    font-weight: bold;
+    color: #555;
+    font-size: 18px; /* Increased font size for labels */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px; /* Increased padding */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size for input text */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px; /* Increased padding */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size for button text */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#review {
+    padding: 20px; /* Increased padding */
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.review-content {
+    font-size: 18px; /* Increased font size for review content */
+    color: #333;
+}
+
+.rating {
+    font-size: 20px; /* Increased font size for rating */
+    color: #ffdd00;
+    margin-top: 10px;
+}
+
+.rating .star {
+    font-size: 24px; /* Increased font size for stars */
+}
